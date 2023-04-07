@@ -1,0 +1,22 @@
+.navcolor:hover{
+    color:white;
+    background: black;
+    
+    border-radius:5px;
+}
+.navcolor
+{   
+    
+    border-radius:5px;
+    color: orange;
+}    
+.navtrans{
+    background: transparent;
+}    
+.bimg{
+    background-image: url('./images/1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+  }

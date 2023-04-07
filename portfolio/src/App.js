@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import HomePage from './components/HomePage';
+import './components/style.css';
+import Header from './components/Header';
+
 function App() {
   return (
     // <div className="App">
@@ -19,8 +21,8 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div>
-      <HomePage/>
+    <div className='bimg'>
+      <Header/>
     </div>
   );
 }
