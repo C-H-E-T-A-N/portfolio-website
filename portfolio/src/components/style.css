@@ -1,22 +1,33 @@
 .navcolor:hover{
-    color:white;
-    background: black;
+    color:#00BFFF;
+    /* background:#00BFFF; */
     
-    border-radius:5px;
+    /* border-radius:5px; */
+    
 }
+
 .navcolor
 {   
-    
+    font-family:monospace;
     border-radius:5px;
-    color: orange;
+    color: whitesmoke;
+    font-weight: bold;
 }    
-.navtrans{
+/* .navtrans{
     background: transparent;
-}    
+}     */
 .bimg{
     background-image: url('./images/1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
-  }
+    background-position: center;
+    }
+#nav1
+    { /* below properties can be used to make whole navbar transparent */
+        /* background-color:black; 
+        opacity: 0.5; 
+        filter:(opacity=50);        */
+         background: rgba(0,0,0, .5); /* it doesn't apply on child elements */
+    }    

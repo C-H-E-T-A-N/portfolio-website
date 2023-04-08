@@ -15,10 +15,13 @@ function Header() {
   return (
     <>
     <div>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg transparent" id="nav1">
         <div className="container-fluid">
           <a style={{paddingLeft:"20px",
-          color:"orange"}}
+          color:"#00BFFF",
+        fontWeight:"bold",
+        fontFamily:"monospace",
+      }}
            className="navbar-brand" href="/">
             Portfolio
           </a>
