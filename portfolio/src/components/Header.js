@@ -15,7 +15,7 @@ function Header() {
   return (
     <>
     <div>
-      <nav className="navbar navbar-expand-lg transparent" id="nav1">
+      <nav className="navbar navbar-expand-lg transparent " id="nav1">
         <div className="container-fluid">
           <a style={{paddingLeft:"20px",
           color:"#00BFFF",
@@ -42,28 +42,28 @@ function Header() {
               mx-auto aligns to centre */}
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item" style={mystyle}>
-                <a className="nav-link navcolor" aria-current="page" href="/">
+                <a className="nav-link navcolor" aria-current="page" href="#section1">
                   Home
                 </a>
               </li>
               <li className="nav-item" style={mystyle} >
-                <a className="nav-link navcolor" aria-current="page" href="/">
+                <a className="nav-link navcolor" aria-current="page" href="#section2">
                   About
                 </a>
               </li>
               <li className="nav-item" style={mystyle}>
-                <a className="nav-link navcolor" aria-current="page" href="/">
+                <a className="nav-link navcolor" aria-current="page" href="#section3">
                   Projects
                 </a>
               </li>
               <li className="nav-item" style={mystyle}>
-                <a className="nav-link navcolor" aria-current="page" href="/">
+                <a className="nav-link navcolor" aria-current="page" href="#section4">
                   Skills
                 </a>
               </li>
               
               <li className="nav-item" style={mystyle}>
-                <a className="nav-link navcolor" aria-current="page" href="/">
+                <a className="nav-link navcolor" aria-current="page" href="#section5">
                   Contact Me
                 </a>
               </li>

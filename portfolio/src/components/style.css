@@ -1,9 +1,16 @@
+
 .navcolor:hover{
     color:#00BFFF;
     /* background:#00BFFF; */
     
     /* border-radius:5px; */
     
+}
+.navbar{
+    position:fixed;
+    width:100%;
+    z-index: 1000000;
+    top:0;
 }
 
 .navcolor
@@ -19,9 +26,10 @@
 .bimg{
     background-image: url('./images/1.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    
     background-size: cover;
     height: 100vh;
+    width: 100%;
     background-position: center;
     }
 #nav1
@@ -31,3 +39,29 @@
         filter:(opacity=50);        */
          background: rgba(0,0,0, .5); /* it doesn't apply on child elements */
     }    
+section
+{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-transform: uppercase;
+}    
+
+#section2
+{
+    background:blue;
+}
+#section3
+{
+    background:pink;
+}
+#section4
+{
+    background:grey;
+}
+#section5
+{
+    background:yellow;
+}
