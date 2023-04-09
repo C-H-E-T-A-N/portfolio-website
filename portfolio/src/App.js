@@ -3,7 +3,7 @@ import './App.css';
 import './components/style.css';
 import Header from './components/Header';
 import Content from './components/Content';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Header/>
     
       <Content/>
+      <Footer/>
       </>
   );
 }
