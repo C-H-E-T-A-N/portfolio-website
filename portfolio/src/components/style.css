@@ -1,84 +1,104 @@
-
-.navcolor:hover{
-    color:#00BFFF;
+.navcolor:hover {
+    color: grey;
     /* background:#00BFFF; */
-    
+
     /* border-radius:5px; */
-    
-}
-.navbar{
-    position:fixed;
-    width:100%;
-    z-index: 1000000;
-    top:0;
+
 }
 
-.navcolor
-{   
-    font-family:monospace;
-    border-radius:5px;
-    color: whitesmoke;
+.navfix {
+    position: fixed;
+    width: 100%;
+    z-index: 1000000;
+    top: 0;
+}
+
+.navcolor {
+    font-family: monospace;
+    border-radius: 5px;
+    color: black;
     font-weight: bold;
-}    
+}
+
 /* .navtrans{
     background: transparent;
 }     */
-.bimg{
-    background-image: url('./images/1.jpg');
+.bimg {
+    background-image: url('./images/4.jpg');
     background-repeat: no-repeat;
-    
+
     background-size: cover;
     height: 100vh;
     width: 100%;
     background-position: center;
-    }
-#nav1
-    { /* below properties can be used to make whole navbar transparent */
-        /* background-color:black; 
+}
+
+#nav1 {
+    /* below properties can be used to make whole navbar transparent */
+    /* background-color:black; 
         opacity: 0.5; 
         filter:(opacity=50);        */
-         background: rgba(0,0,0, .5); /* it doesn't apply on child elements */
-    }    
-section
-{
-   height: 100vh;
-   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   text-transform: uppercase;
-}    
-
-#About
-{
-    background:blue;
-}
-#Projects
-{
-    background:pink;
-}
-#Skills
-{
-    background:grey;
-}
-#ContactMe
-{
-    font-family:monospace;
-    color:whitesmoke;
-    background: grey
-    ;
+    background: rgba(38, 37, 37, 0.3);
+    /* it doesn't apply on child elements */
 }
 
-.footer
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+    
+}
+.intro-content
 {
+    margin-left: 50px;
+}
+#About {
+    background: blue;
+}
+
+#Projects {
+    background: pink;
+}
+
+#Skills {
+    background: peru;
+}
+
+#ContactMe {
+    font-family: monospace;
+    color: whitesmoke;
+    background: grey;
+}
+
+.footer {
     bottom: 0;
-    width:100%;
+    width: 100%;
     height: 50px;
     background: #000;
     justify-content: center;
     color: white;
     text-align: center;
     padding-top: 15px;
-    font-family:monospace;
+    font-family: monospace;
     font-size: small;
+}
+
+/* #nodeco
+{
+    text-decoration: none;
+
+} */
+.social-media
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
 }
