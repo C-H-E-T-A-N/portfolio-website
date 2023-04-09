@@ -42,28 +42,28 @@ function Header() {
               mx-auto aligns to centre */}
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item" style={mystyle}>
-                <a className="nav-link navcolor" aria-current="page" href="#section1">
+                <a className="nav-link navcolor" aria-current="page" href="#intro">
                   Home
                 </a>
               </li>
               <li className="nav-item" style={mystyle} >
-                <a className="nav-link navcolor" aria-current="page" href="#section2">
+                <a className="nav-link navcolor" aria-current="page" href="#About">
                   About
                 </a>
               </li>
               <li className="nav-item" style={mystyle}>
-                <a className="nav-link navcolor" aria-current="page" href="#section3">
+                <a className="nav-link navcolor" aria-current="page" href="#Projects">
                   Projects
                 </a>
               </li>
               <li className="nav-item" style={mystyle}>
-                <a className="nav-link navcolor" aria-current="page" href="#section4">
+                <a className="nav-link navcolor" aria-current="page" href="#Skills">
                   Skills
                 </a>
               </li>
               
               <li className="nav-item" style={mystyle}>
-                <a className="nav-link navcolor" aria-current="page" href="#section5">
+                <a className="nav-link navcolor" aria-current="page" href="#ContactMe">
                   Contact Me
                 </a>
               </li>

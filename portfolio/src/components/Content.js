@@ -3,19 +3,19 @@ import './style.css';
 function Content() {
   return (
     <div>
-      <section  id='section1' className='bimg'>
+      <section  id='intro' className='bimg'>
         
       </section>
-      <section id='section2'>
+      <section id='About'>
         section 2
       </section>
-      <section id='section3'>
+      <section id='Projects'>
         section 3
       </section>
-      <section id='section4'>
+      <section id='Skills'>
         section 4
       </section>
-      <section id='section5'>
+      <section id='ContactMe'>
         section 5
       </section>
     </div>

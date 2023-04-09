@@ -49,19 +49,19 @@ section
    text-transform: uppercase;
 }    
 
-#section2
+#About
 {
     background:blue;
 }
-#section3
+#Projects
 {
     background:pink;
 }
-#section4
+#Skills
 {
     background:grey;
 }
-#section5
+#ContactMe
 {
     background:yellow;
 }
