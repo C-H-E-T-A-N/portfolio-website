@@ -22,7 +22,7 @@ function Header() {
         fontWeight:"bold",
         fontFamily:"monospace",
       }}
-           className="navbar-brand" href="/">
+           className="navbar-brand" href="#intro">
             Portfolio
           </a>
           <button
