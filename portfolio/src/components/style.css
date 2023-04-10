@@ -92,6 +92,10 @@
     margin-left: 50px;
     display: inline;
 }
+#intro
+{
+    background: pink;
+}
 #About {
     background:white;
     
@@ -102,13 +106,13 @@
 }
 
 #Skills {
-    background: peru;
+    background: white;
 }
 
 #ContactMe {
     font-family: monospace;
-    color: whitesmoke;
-    background: grey;
+    color: black;
+    background:pink;
 }
 
 .footer {
@@ -129,14 +133,26 @@
     text-decoration: none;
 
 } */
-.icon
+.icon-whatsapp
 {
  margin-left: 12px;   
+ color: green;
+ 
+}
+.icon-instagram
+{
+ margin-left: 12px;   
+ color: rgb(206, 15, 114);
+}
+.icon-twitter
+{
+ margin-left: 12px;   
+ 
 }
 .social-media a 
 {
     display: inline-flex;
-    
+    font-size: 25px;
 }
 .multitextcolor
 {
@@ -180,9 +196,13 @@ margin: 0;
         align-items: center;
         justify-content: center;
 }
-    .about-col-1
+    .margin
     {   
         margin-bottom: 30px;
+    }
+    .margin2
+    {   
+        margin-bottom: 15px;
     }
     .about-row
     {
@@ -202,4 +222,38 @@ margin: 0;
     {
         font-size: medium;
     }
+    .icon
+{
+ margin-left: 5px;   
+ height: 5px;
+ width: 17px;
+}
+.firsticon
+{
+    height: 5px;
+    width: 17px;
+}
+.icon-whatsapp{
+    margin-left: 12px;   
+    color: green;
+    margin-left: 5px;   
+    height: 5px;
+    width: 17px;
+   }
+   .icon-instagram
+   {
+    margin-left: 12px;   
+    color: rgb(206, 15, 114);
+    margin-left: 5px;   
+    height: 5px;
+    width: 17px;
+   }
+   .icon-twitter
+   {
+    margin-left: 12px; 
+    margin-left: 5px;   
+    height: 5px;
+    width: 17px;  
+    
+   }
   }

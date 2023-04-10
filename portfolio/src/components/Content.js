@@ -1,6 +1,10 @@
 import React from 'react'
 import './style.css';
 import './images/3.jpg';
+import { FaTwitter } from 'react-icons/fa'
+import { FaWhatsapp } from 'react-icons/fa'
+import { BsInstagram } from 'react-icons/bs'
+import { BsLinkedin } from 'react-icons/bs'
 function Content() {
   return (
     <>
@@ -12,49 +16,40 @@ function Content() {
             <h1 >Chetan Sharma</h1>
             <h3 className='small-text'>And I'm a <span className='App'><span className='multi multitextcolor'></span></span></h3>
             <div className="social-media">
-              <a className='firsticon' href="/"><box-icon type='logo' name='instagram'></box-icon></a>
-              <a className='icon' href="/"><box-icon type='logo' name='linkedin-square'></box-icon></a>
-              <a className='icon' href="/"><box-icon name='twitter' type='logo' ></box-icon></a>
-              <a className='icon' href="/"><box-icon name='whatsapp' type='logo' ></box-icon></a>
+              <a className='firsticon' href="https://www.linkedin.com/in/chetan-sharma-a9713a253/"><BsLinkedin /></a>
+              <a className='icon-instagram' href="https://www.instagram.com/_chetan._sharma_/?igshid=ZDdkNTZiNTM%3D"><BsInstagram /></a>
+              <a className='icon-twitter' href="https://twitter.com/Its__CHETAN?t=70B4P8TLLQiaZBpWgHZVOQ&s=09"><FaTwitter /></a>
+              <a className='icon-whatsapp' href="https://wa.me/+919996686450"><FaWhatsapp /></a>
             </div>
           </div>
         </section>
 
-
-
-
-
-
-
-
-
-
         <section id='About' className='section-about'>
-        <div class="container">
-  <div class="row about-row">
-    
-    <div class="about-col-1 col-md-4">
-    <img src={require('./images/5.jpg')} className='image rounded fluid' alt='responsive' />
-    </div>
-    
-    <div class="col-md-8">
-      <h3 >ABOUT ME</h3>
-      <p className='about-col-1'>
+          <div className="container">
+            <div className="row about-row">
 
-      Hi there, I'm a passionate developer with expertise in both frontend and backend technologies. I have a strong understanding of various programming languages, including JavaScript, HTML, CSS, Python, and PHP, and I constantly keep myself updated with the latest trends and technologies in the industry.
-      On the backend side, I have expertise in designing and developing RESTful APIs, database management, and server-side programming. I have worked with popular backend frameworks such as Django and have experience in working with SQL and NoSQL databases.
-      </p>
-      <div className=" social-media">
-              <a className='firsticon' href="/"><box-icon type='logo' name='instagram'></box-icon></a>
-              <a className='icon' href="/"><box-icon type='logo' name='linkedin-square'></box-icon></a>
-              <a className='icon' href="/"><box-icon name='twitter' type='logo' ></box-icon></a>
-              <a className='icon' href="/"><box-icon name='whatsapp' type='logo' ></box-icon></a>
+              <div className="margin col-md-4">
+                <img src={require('./images/5.jpg')} className='image rounded fluid' alt='responsive' />
+              </div>
+
+              <div className="col-md-8">
+                <h3 >ABOUT ME</h3>
+                <p className='margin2'>
+
+                  Hi there, I'm a passionate developer with expertise in both frontend and backend technologies. I have a strong understanding of various programming languages, including JavaScript, HTML, CSS, Python, and PHP, and I constantly keep myself updated with the latest trends and technologies in the industry.
+                  On the backend side, I have expertise in designing and developing RESTful APIs, database management, and server-side programming. I have worked with popular backend frameworks such as Django and have experience in working with SQL and NoSQL databases.
+                </p>
+                <div className=" margin social-media">
+                  <a className='firsticon' href="https://www.linkedin.com/in/chetan-sharma-a9713a253/"><BsLinkedin /></a>
+                  <a className='icon-instagram' href="https://www.instagram.com/_chetan._sharma_/?igshid=ZDdkNTZiNTM%3D"><BsInstagram /></a>
+                  <a className='icon-twitter' href="https://twitter.com/Its__CHETAN?t=70B4P8TLLQiaZBpWgHZVOQ&s=09"><FaTwitter /></a>
+                  <a className='icon-whatsapp' href="https://wa.me/+919996686450"><FaWhatsapp /></a>
+                </div>
+              </div>
             </div>
-    </div>
-    </div>
-  </div>
-         
-      
+          </div>
+
+
 
 
 
@@ -73,10 +68,10 @@ function Content() {
         <section id='Projects' className='section-projects'>
           <div className="container">
 
-      <div className="row">
-        <div className="col-md-6">A</div>
-        <div className="col-md-6">B</div>
-      </div>
+            <div className="row">
+              <div className="col-md-6">A</div>
+              <div className="col-md-6">B</div>
+            </div>
           </div>
         </section>
         <section id='Skills' className='section-skills'>
