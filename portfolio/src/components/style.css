@@ -24,12 +24,12 @@
     background: transparent;
 }     */
 .bimg {
-    background-image: url('./images/4.jpg');
+    /* background-image: url('./images/1.jpg'); */
     background-repeat: no-repeat;
-
+   
     background-size: cover;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-position: center;
 }
 
@@ -42,9 +42,45 @@
     /* it doesn't apply on child elements */
 }
 
-section {
+.section-contact{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+    
+}
+.section-intro{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+    
+}
+.section-about{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+    
+}
+.section-projects{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+    
+}
+.section-skills{
+    height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -54,9 +90,11 @@ section {
 .intro-content
 {
     margin-left: 50px;
+    display: inline;
 }
 #About {
-    background: blue;
+    background:white;
+    
 }
 
 #Projects {
@@ -91,14 +129,73 @@ section {
     text-decoration: none;
 
 } */
-.social-media
+.icon
+{
+ margin-left: 12px;   
+}
+.social-media a 
 {
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    text-decoration: none;
-    margin-left: 30px;
+    
 }
+.multitextcolor
+{
+    color: chocolate;
+}
+.mclass
+{
+margin: 0;
+  padding: 0;
+}
+.image
+{
+   
+    height: 350px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 700px) {
+    .image{
+        height: 300px;
+        width: 80%;
+        
+    }
+    
+    .section-about
+    {
+        padding-top: 60px;
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+    .about-col-1
+    {   
+        margin-bottom: 30px;
+    }
+    .about-row
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  @media(max-width: 320px)
+  {
+    .image{
+        height: 200px;
+        width: 80%;
+        
+    }
+  }
