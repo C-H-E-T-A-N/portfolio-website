@@ -8,9 +8,9 @@ function Content() {
         <section id='intro' className='bimg section-intro'>
           <div className="intro-content">
 
-            <h3>Hello! It's Me</h3>
-            <h1>Chetan Sharma</h1>
-            <h3>And I'm a <span className='App'><span className='multi multitextcolor'></span></span></h3>
+            <h3 className='small-text'>Hello! It's Me</h3>
+            <h1 >Chetan Sharma</h1>
+            <h3 className='small-text'>And I'm a <span className='App'><span className='multi multitextcolor'></span></span></h3>
             <div className="social-media">
               <a className='firsticon' href="/"><box-icon type='logo' name='instagram'></box-icon></a>
               <a className='icon' href="/"><box-icon type='logo' name='linkedin-square'></box-icon></a>
