@@ -169,6 +169,12 @@ margin: 0;
     height: 350px;
     width: 100%;
 }
+.heading-projects
+{ 
+    
+    text-align: center;
+    
+}
 
 
 
@@ -209,6 +215,10 @@ margin: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .projects-margin
+    {
+        margin:auto
     }
   }
   @media(max-width: 320px)

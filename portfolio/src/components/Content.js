@@ -65,15 +65,42 @@ function Content() {
 
 
 
-        <section id='Projects' className='section-projects'>
-          <div className="container">
+        <section id='Projects' className='section-projects section-about'>
+          <div className="container overflow-hidden">
+            
 
-            <div className="row">
-              <div className="col-md-6">A</div>
-              <div className="col-md-6">B</div>
-            </div>
+         <h1 className='my-4 heading-projects'>My Projects</h1>
+          
+          
+          <div className="row projects-margin justify-content-left gx-5">
+    <div className="col-md-4 margin2">
+    <div className="card h-100" style={{width:'15rem'}}>
+  <img className="cardimage card-img-top" src={require('./images/5.jpg')} alt="Card cap"/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="/" className="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </div>
+    <div className="col-md-4 margin">
+    <div className="card h-100" style={{width: "15rem"}}>
+  <img className=" cardimage card-img-top" src={require('./images/5.jpg')} alt="Card  cap"/>
+  <div className="card-body">
+    <h5 className="card-title">Card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="/" className="btn btn-primary">Go somewhere</a>
+  </div>
+    </div>
+  </div>
+  </div>
+
           </div>
         </section>
+
+
+
+
         <section id='Skills' className='section-skills'>
           section 4
         </section>
