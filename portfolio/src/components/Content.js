@@ -101,8 +101,30 @@ function Content() {
 
 
 
-        <section id='Skills' className='section-skills'>
-          section 4
+        <section id='Skills' className='section-skills section-about'>
+        <div className="container">
+        <h1 className='my-4 heading-projects'>My Skills</h1>
+        <div className="progress my-3" role="progressbar" style={{height:"25px"}} aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar " style={{width: "10%"}}>HTML</div>
+</div>
+<div className="progress my-3" role="progressbar" style={{height:"25px"}} aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar  bg-success" style={{width: "25%"}}>CSS</div>
+</div>
+<div className="progress my-3" role="progressbar" style={{height:"25px"}} aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar  bg-info" style={{width: "50%"}}>JavaScript</div>
+</div>
+<div className="progress my-3" role="progressbar" style={{height:"25px"}} aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar bg-warning" style={{width: "75%"}}>Python</div>
+</div>
+<div className="progress my-3" role="progressbar" style={{height:"25px"}} aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar  bg-danger" style={{width: "100%"}}>REACT JS</div>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, repudiandae eius cumque eum officia fugit dolores expedita quasi, sequi nemo ratione culpa voluptatum laboriosam fuga ipsa veniam labore libero unde?
+Illum tempore, nostrum excepturi, possimus molestias incidunt aspernatur eaque at quasi obcaecati error non quae rerum, commodi culpa cum asperiores dolores ratione quidem sit totam vitae iure deleniti quis. Officia.
+Dolore odit necessitatibus beatae! Saepe quod adipisci at voluptatem asperiores, obcaecati quis sint quo perspiciatis voluptatum labore aut beatae nemo accusantium totam atque incidunt numquam, ipsa sit quam nesciunt nobis.
+Corrupti in iste, repudiandae fugit inventore voluptatibus autem hic quibusdam officiis consequatur possimus, laboriosam illo cupiditate ipsum aspernatur provident, veniam velit sit! Rem sit officiis ducimus eum, libero sapiente alias!
+Quaerat, officia repellendus nihil expedita odio reprehenderit distinctio minus tempore ea non culpa. Quod ipsam aspernatur unde, odit id at architecto magni incidunt eos voluptatum, optio error iure placeat ipsum?</p>
+        </div>
         </section>
 
 
