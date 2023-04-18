@@ -5,6 +5,14 @@ import { FaTwitter } from 'react-icons/fa'
 import { FaWhatsapp } from 'react-icons/fa'
 import { BsInstagram } from 'react-icons/bs'
 import { BsLinkedin } from 'react-icons/bs'
+import { FaHtml5 } from 'react-icons/fa';
+import { FaCss3 } from 'react-icons/fa';
+import { TbBrandJavascript } from 'react-icons/tb';
+import { SiPython } from 'react-icons/si';
+import { SiDjango } from 'react-icons/si';
+import { FaReact } from 'react-icons/fa';
+import { BiCheckboxSquare } from 'react-icons/bi';
+
 function Content() {
   return (
     <>
@@ -29,7 +37,7 @@ function Content() {
             <div className="row about-row">
 
               <div className="margin col-md-4">
-                <img src={require('./images/5.jpg')} className='image rounded fluid' alt='responsive' />
+                <img src={require('./images/6.jpeg')} className='image rounded fluid' alt='responsive' />
               </div>
 
               <div className="col-md-8">
@@ -65,11 +73,11 @@ function Content() {
 
 
 
-        <section id='Projects' className='section-projects section-about'>
+        <section id='Projects' className='section-projects section-short'>
           <div className="container overflow-hidden">
             
 
-         <h1 className='my-4 heading-projects'>My Projects</h1>
+         <h1 className='my-3 heading-projects'>My Projects</h1>
           
           
           <div className="row projects-margin justify-content-left gx-5">
@@ -101,39 +109,46 @@ function Content() {
 
 
 
-        <section id='Skills' className='section-skills section-about'>
-        <div className="container">
-        <h1 className='my-4 heading-projects'>My Skills</h1>
-        <div className="progress my-3" role="progressbar" style={{height:"25px"}} aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
-  <div className="progress-bar " style={{width: "10%"}}>HTML</div>
+        <section id='Skills' className='section-skills'>
+        < div className="container mb-5">
+        <h1 className='my-3 heading-projects'>My Skills</h1>
+        
+          <FaHtml5 style={{color:"#e34c26"}}/>
+    <div className="  progress  my-2" role="progressbar" style={{height:"20px"}} aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+     <div className="progress-bar " style={{width: "90%"}}>HTML</div>
 </div>
-<div className="progress my-3" role="progressbar" style={{height:"25px"}} aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-  <div className="progress-bar  bg-success" style={{width: "25%"}}>CSS</div>
+<FaCss3 style={{color:"blue"}}/><div className="progress my-2" role="progressbar" style={{height:"20px"}} aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar  bg-success" style={{width: "80%"}}>CSS</div>
 </div>
-<div className="progress my-3" role="progressbar" style={{height:"25px"}} aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+<TbBrandJavascript style={{color:"yellow", background:"black"}}/><div className="progress my-2" role="progressbar" style={{height:"20px"}} aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
   <div className="progress-bar  bg-info" style={{width: "50%"}}>JavaScript</div>
 </div>
-<div className="progress my-3" role="progressbar" style={{height:"25px"}} aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-  <div className="progress-bar bg-warning" style={{width: "75%"}}>Python</div>
+<SiPython style={{color:"blue", background:"yellow"}}/><div className="progress my-2" role="progressbar" style={{height:"20px"}} aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar bg-warning" style={{width: "35%"}}>Python</div>
 </div>
-<div className="progress my-3" role="progressbar" style={{height:"25px"}} aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-  <div className="progress-bar  bg-danger" style={{width: "100%"}}>REACT JS</div>
+<FaReact style={{color:"#007FFF", background:""}}/><div className="progress my-2" role="progressbar" style={{height:"20px"}} aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  <div className="progress-bar  bg-danger" style={{width: "30%"}}>REACT JS</div>
 </div>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, repudiandae eius cumque eum officia fugit dolores expedita quasi, sequi nemo ratione culpa voluptatum laboriosam fuga ipsa veniam labore libero unde?
-Illum tempore, nostrum excepturi, possimus molestias incidunt aspernatur eaque at quasi obcaecati error non quae rerum, commodi culpa cum asperiores dolores ratione quidem sit totam vitae iure deleniti quis. Officia.
-Dolore odit necessitatibus beatae! Saepe quod adipisci at voluptatem asperiores, obcaecati quis sint quo perspiciatis voluptatum labore aut beatae nemo accusantium totam atque incidunt numquam, ipsa sit quam nesciunt nobis.
-Corrupti in iste, repudiandae fugit inventore voluptatibus autem hic quibusdam officiis consequatur possimus, laboriosam illo cupiditate ipsum aspernatur provident, veniam velit sit! Rem sit officiis ducimus eum, libero sapiente alias!
-Quaerat, officia repellendus nihil expedita odio reprehenderit distinctio minus tempore ea non culpa. Quod ipsam aspernatur unde, odit id at architecto magni incidunt eos voluptatum, optio error iure placeat ipsum?</p>
-        </div>
+<SiDjango style={{color:"green"}}/>
+    <div className="  progress  my-2" role="progressbar" style={{height:"20px"}} aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+     <div className="progress-bar " style={{width: "30%"}}>Django</div>
+</div>
+<div className='margin-skill'>
+
+<p className='m-0 p-0'><BiCheckboxSquare style={{marginRight:"10px"}}/>Proficient in CSS, HTML and JAVASCRIPT for creating visually appealing web pages with clean and modern designs.</p>
+ <p className='m-0 p-0'><BiCheckboxSquare style={{marginRight:"10px"}}/>Experienced with Django, a powerful Python web framework for building complex web applications quickly and efficiently.</p>
+ <p className=''><BiCheckboxSquare style={{marginRight:"10px"}}/>Knowledgeable in React, a popular JavaScript library for building reusable user interfaces and single-page applications (SPAs).</p>
+</div>
+</div>
         </section>
 
 
 
 
         <section id='ContactMe' className='section-contact'>
-          <div className="container w-75">
-            <h1 className="text-center">Contact Me</h1>
-            <form action="/contact/" method="post">
+          <div className="container  w-75">
+            <h1 className="text-center my-3">Contact Me</h1>
+            <form action="/contact/" method="post" className='margin-contact'>
 
               <div className="form-group my-2">
                 <label htmlFor="name">Name</label>
